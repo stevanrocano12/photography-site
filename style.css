@@ -1,0 +1,100 @@
+html, body, #wrapper {
+    width: 100%;
+    min-height: 100%; }
+#Slogan{
+    font-size:50px;
+    margin-top: 50px;
+}
+
+#logo {
+    height: 50px;
+    width: 50px;
+}
+
+.words{
+    color: white !important;
+    text-align: center !important;
+    font-family: cursive;
+}
+#intro{
+    font-size:50px;
+}
+#intro1{
+    font-size: 40px;
+}
+
+#price{
+    font-size: 35px;
+}
+.price-pic{
+    height: 550px;
+    width: 550px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.info-card{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height:350px;
+}
+.main{
+    background-color: black !important;
+}
+.navbar a:hover {
+    opacity: 1;
+    font-weight: bold;
+    color: black;
+}
+
+.main-pg-logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+}
+#nav1{
+    background-color:#03ff46;
+}
+
+.navbar{
+    background-color: #049fff;
+    height: 68px;
+
+}
+
+.navbar-brand {
+    color: #049fff!important;
+}
+
+.nav-link {
+    color:#049fff !important;
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 50%;
+  height: 50%;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "s";
+  clear: both;
+  display: table;
+}
+
+.footer{
+    background-color:black;
+}
+
+.white_p{
+    color: white !important;
+}
+
+.row{
+    color: black !important;
+}
